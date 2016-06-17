@@ -29,6 +29,9 @@ class SmsMessengerServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        //$provider = config('sms.default-provider');
+        //var_dump($provider);
+        
         $this->app->singleton(SmsMessenger::class, function () {
             if (config('sms.default-provider') == 'pswincom') {
                 return new PsWinComMessenger();
