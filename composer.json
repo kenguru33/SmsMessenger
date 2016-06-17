@@ -1,0 +1,12 @@
+{
+    "name": "anker/sms-messenger",
+    "description": "Laravel Sms Service",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bernt Anker",
+            "email": "bernt.anker@me.com"
+        }
+    ],
+    "require": {}
+}
