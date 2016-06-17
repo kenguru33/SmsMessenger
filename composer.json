@@ -8,5 +8,11 @@
             "email": "bernt.anker@me.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+            "psr-4": {
+                "SmsMessenger\\": "src/"
+            }
+        },
+    
 }
